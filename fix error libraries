@@ -1,0 +1,24 @@
+✅ Correct environment setup
+
+Uninstall any standalone Keras:
+
+pip uninstall keras -y
+pip uninstall tensorflow -y
+pip uninstall transformers -y
+pip uninstall huggingface-hub -y
+
+
+Install compatible versions:
+
+pip install tensorflow==2.14.0
+pip install transformers==4.33.2
+pip install huggingface-hub==0.17.3
+
+
+Transformers >=4.33.0 fully supports tf.keras from TensorFlow and does not import standalone keras.
+
+Check your imports in code:
+
+Remove from keras imports.
+
+Use only tf.keras in your code (which you already are doing).
