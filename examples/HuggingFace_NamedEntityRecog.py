@@ -60,5 +60,5 @@ for idx, text in enumerate(sentences, start=1):
 
 # Save the figure
 plt.tight_layout()
-plt.savefig("../ner_entities.png", dpi=150)
+plt.savefig("../plot_ner_entities.png", dpi=150)
 plt.show()

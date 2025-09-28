@@ -61,5 +61,5 @@ plt.text(0.05, 0.1, f"Summary:\n{summary_text}", fontsize=12, color="green", wra
 plt.suptitle("Text Summarization", fontsize=14)  # suptitle for figure title
 plt.tight_layout()
 
-plt.savefig("../summarization_plot.png", dpi=150)
+plt.savefig("../plot_summarization.png", dpi=150)
 plt.show()
