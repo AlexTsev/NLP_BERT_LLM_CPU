@@ -14,7 +14,7 @@ classifier = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
 
 texts = [
     "The bank provides excellent customer service.",
-    "The user experience was terrible.",
+    "The user experience was frustrating.",
     "The application works as expected.",
     "The product was completely useless and disappointed me.",
     "The service was good but not outstanding."
@@ -38,7 +38,7 @@ sentiment_colors = {
     "Negative": "red",
     "Neutral": "orange",
     "Positive": "green",
-    "Very Positive": "green4"
+    "Very Positive": "#006400"
 }
 
 # Collect predictions
